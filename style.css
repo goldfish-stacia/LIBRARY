@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+
+* {
+    border: 0.5px solid rgba(255, 0, 0, 0.3);
+    color:#ffffff;
+    font-size: 微軟正黑體;
+}
+
+#box {
+    background-color:rgba(0, 0, 0, 0.3);
+    height: 500pt;
+}
