@@ -1,15 +1,29 @@
 body {
     background-image: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: cover;
+    background-position: center;
 }
-
+/* 全部 */
 * {
     border: 0.5px solid rgba(255, 0, 0, 0.3);
     color:#ffffff;
-    font-size: 微軟正黑體;
+    font-family: 微軟正黑體;
 }
 
 #box {
     background-color:rgba(0, 0, 0, 0.3);
-    height: 500pt;
+    height: 921px;
+}
+/* 導覽列區塊 */
+#logo {
+    font-size: 2em;
+}
+nav a {
+    /* 邊框底部 */
+    border-bottom: 2px solid #ffffff;
+}
+
+a {
+    /* 文字裝飾底線 */
+    text-decoration: none;
 }
