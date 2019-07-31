@@ -5,24 +5,29 @@ body ,html {
 }
 /* 全部 */
 * {
-    border: 0.5px solid rgba(255, 0, 0, 0.3);
+    border: 0.5px solid rgba(0, 255, 76, 0.5);
     color:#ffffff;
     font-family: 微軟正黑體;
 }
 
 #box {
-    background-color:rgba(0, 0, 0, 0.3);
-    height: 921px;
+    height: auto;
+    margin: auto 10%;
 }
 /* 導覽列區塊 */
+nav {
+    margin-top: 20px;
+}
+
 #logo {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 nav a {
-    /* display: inline-block; */
+    /*logo 關於 借閱申請 聯絡我們 */
     border-bottom: 1px solid #ffffff;
     padding: 7px 0;
+    display: inline-block;
 }
 
 nav a:hover{
@@ -34,11 +39,12 @@ a {
     text-decoration: none;
     }
 
-#icon {
-    /* display: inline-block; */
-}
 nav div{
     float: right;
+}
+
+#content p {
+    text-align: justify;
 }
 
 #content {
@@ -55,6 +61,7 @@ nav div{
 }
 
 #icon a {
+    /* 外圍圓形框 */
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #ffffff;
     border-radius: 50%;
