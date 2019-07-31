@@ -1,13 +1,14 @@
 body ,html {
     background-image: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
 }
 /* 全部 */
 * {
-    border: 0.5px solid rgba(0, 255, 76, 0.5);
+    border: 0.5px solid rgba(255, 255, 0, 0);
     color:#ffffff;
     font-family: 微軟正黑體;
+    font-weight: bold;
 }
 
 #box {
@@ -20,14 +21,13 @@ nav {
 }
 
 #logo {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 nav a {
     /*logo 關於 借閱申請 聯絡我們 */
     border-bottom: 1px solid #ffffff;
     padding: 7px 0;
-    display: inline-block;
 }
 
 nav a:hover{
@@ -39,6 +39,7 @@ a {
     text-decoration: none;
     }
 
+    /*關於 借閱申請 聯絡我們 */
 nav div{
     float: right;
 }
@@ -47,28 +48,54 @@ nav div{
     text-align: justify;
 }
 
+/* 內文外框 */
 #content {
     width: 50%;
+    margin: 50px 0px 0px 50px;
 }
 
+h1 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+p {
+    margin: 40px 0px 60px 0px;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+/* 了解更多 */
 #content a {
     background-color: rgba(120, 45, 40, 0.5);
     padding: 10px 25px;
+    border: 1px solid #ffffff;
 }
-
 #content a:hover{
     background-color: rgba(0, 0, 0, 0);
 }
-
+#icon {
+    text-align: center;
+}
 #icon a {
     /* 外圍圓形框 */
+    margin: 55px 30px;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #ffffff;
     border-radius: 50%;
     padding: 30px;
     display: inline-block;
 }
-
 #icon a:hover {
     background-color: rgba(120, 45, 40, 0.5);
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    /* 位置固定 與底部距離0 */
+    position: fixed;bottom: 0;
+    background-color: rgba(120, 45, 40, 0.5);
+    text-align: center;
+    line-height: 60px;
 }
