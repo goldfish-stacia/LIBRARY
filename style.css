@@ -1,7 +1,7 @@
 body ,html {
     background-image: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    /* background-size: cover; */
-    background-position: center;
+    background-size: cover;
+    /* background-position: center; */
 }
 /* 全部 */
 * {
@@ -9,6 +9,8 @@ body ,html {
     color:#ffffff;
     font-family: 微軟正黑體;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 #box {
     height: auto;
